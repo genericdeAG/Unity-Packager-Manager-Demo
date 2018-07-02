@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "com.unity.ads": "exclude",
+    "de.generic.unity-dot-net-library": "file:../../UnityDotNetLibrary/Implementation",
     "com.unity.purchasing": "exclude",
     "com.unity.analytics": "exclude",
-    "com.unity.standardevents": "exclude"
+    "com.unity.standardevents": "exclude",
     "com.unity.textmeshpro": "1.2.3"
   }
 }

@@ -1,0 +1,11 @@
+{
+    "name": "de.generic.unity-dot-net-library",
+    "displayName": ".Net Library",
+    "version": "1.0.0",
+    "unity": "2018.1",
+    "description": "This package provides a library from a separate .Net Project.",
+    "keywords": [],
+    "category": "Other",
+    "dependencies": {
+    }
+}
