@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>UnityDotNetLibrary</RootNamespace>
+    <AssemblyName>UnityDotNetLibrary</AssemblyName>
+    <Authors />
+    <Company>generic.de software technologies AG</Company>
+    <Copyright>generic.de software technologies AG</Copyright>
+  </PropertyGroup>
+
+</Project>
