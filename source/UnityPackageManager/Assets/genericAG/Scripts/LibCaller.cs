@@ -13,6 +13,11 @@ namespace genericAG.Scripts
 
         private void Start()
         {
+            RequestContentFromLib();
+        }
+
+        public void RequestContentFromLib()
+        {
             _constantContent.text = Library.Constant;
             var val1 = Random.Range(0f, 500f);
             var val2 = Random.Range(0f, 500f);
