@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace genericAG.Scripts
 {
-    [ExecuteInEditMode]
     public class LibCaller : MonoBehaviour
     {
         [SerializeField]
@@ -12,11 +11,12 @@ namespace genericAG.Scripts
         [SerializeField]
         private TextMeshProUGUI _methodContent;
 
-
-        private void OnEnable()
+        private void Start()
         {
             _constantContent.text = Library.Constant;
-            _methodContent.text = $"10 + 5 = {Library.Add(10, 5)}";
+            var val1 = Random.Range(0f, 500f);
+            var val2 = Random.Range(0f, 500f);
+            _methodContent.text = $"{val1:.##} + {val2:.##} = {Library.Add(val1, val2):.##}";
         }
     }
 }
