@@ -1,0 +1,8 @@
+{
+    "name": "genericAG.UnityDotNetLibrary",
+    "references": [],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
