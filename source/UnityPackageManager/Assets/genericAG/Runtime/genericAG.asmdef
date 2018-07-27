@@ -1,8 +1,8 @@
 {
-    "name": "genericAG.scripts",
+    "name": "genericAG",
     "references": [
         "Unity.TextMeshPro",
-		"genericAG.UnityDotNetLibrary"
+        "genericAG.UnityDotNetLibrary"
     ],
     "optionalUnityReferences": [],
     "includePlatforms": [],

@@ -2,7 +2,7 @@
 using UnityDotNetLibrary;
 using UnityEngine;
 
-namespace genericAG.Scripts
+namespace genericAG.Runtime
 {
     public class LibCaller : MonoBehaviour
     {
