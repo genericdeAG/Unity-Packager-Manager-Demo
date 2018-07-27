@@ -1,0 +1,14 @@
+{
+    "name": "genericAG.UnityDotNetLibrary.Tests",
+    "references": [
+        "genericAG.UnityDotNetLibrary"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
